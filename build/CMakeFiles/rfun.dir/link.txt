@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -g CMakeFiles/rfun.dir/src/main.cpp.o -o rfun  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.a -L/usr/local/lib -lraylib 

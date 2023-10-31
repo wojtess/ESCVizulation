@@ -1,3 +1,0 @@
-/home/wojtess/Documents/cpp/ESCVizulation/build-win/CMakeFiles/esc.dir
-/home/wojtess/Documents/cpp/ESCVizulation/build-win/CMakeFiles/edit_cache.dir
-/home/wojtess/Documents/cpp/ESCVizulation/build-win/CMakeFiles/rebuild_cache.dir
