@@ -95,11 +95,13 @@ void Engine::loop() {
         float phaseEpoch = (epoch - this->runStartTime) / timeBeetwenRuns * PI * 2;
 
         float phaseFirst = sin(phaseEpoch + (0 * PI/180.0));
-        phaseFirst = std::max(phaseFirst, 0.0f);
         float phaseSecond = sin(phaseEpoch + (120 * PI/180.0));
-        phaseSecond = std::max(phaseSecond, 0.0f);
         float phaseThird = sin(phaseEpoch + (240 * PI/180.0));
-        phaseThird = std::max(phaseThird, 0.0f);
+
+
+//         phaseFirst = std::max(phaseFirst, 0.0f);
+//         phaseSecond = std::max(phaseSecond, 0.0f);
+//         phaseThird = std::max(phaseThird, 0.0f);
 
         float phaseA = phaseFirst - phaseSecond;
         float phaseB = phaseSecond - phaseThird;
